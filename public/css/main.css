@@ -1,0 +1,116 @@
+/* General Style */
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #000;
+    background: #fffffe;
+}
+
+.links {
+    margin-top: 1em;
+}
+
+.links a {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    background: #A67563;
+    color: white !important;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 3px 2px;
+    border-radius: 2px;
+    min-width: 170px;
+}
+
+.links a .fa-icon {
+    display: inline-block;
+    margin-right: 0.5em;
+    min-width: 18px;
+}
+
+
+/* Header Style */
+
+.main, .xd-container>header {
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.xd-container>header {
+    background-image: linear-gradient(to right, #FFC7B3, #FFFFFF);
+    text-align: center;
+    padding: 3em;
+}
+
+.xd-container>header h1 {
+    font-size: 2.625em;
+    line-height: 1.3;
+    margin: 0;
+    font-weight: 300;
+}
+
+.xd-container>header span {
+    display: block;
+    font-size: 60%;
+    padding: 0 0 0.6em 0.1em;
+}
+
+
+/* Main Content */
+
+.main {
+    max-width: 69em;
+}
+
+.main .section {
+    font-size: 1.2em;
+    padding: 0.8em 0 0.5em 0;
+    border-bottom: solid 2px #A67563;
+    margin: 0.5em 0;
+}
+
+.title-text {
+    color: #66483D;
+    text-shadow: 0px 0px 3px #333;
+}
+
+.main button {
+    border: none;
+    padding: 0.4em 1.2em;
+    background: #A67563;
+    color: white;
+    font-size: 1em;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 3px 2px;
+    border-radius: 2px;
+}
+
+.main button:focus {
+    outline: none;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.7);
+}
+
+
+/* xdialog body content */
+
+.xd-body pre {
+    margin: 0;
+}

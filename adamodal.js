@@ -158,7 +158,7 @@ window.adamodal = function () {
         return {
             // dialog title
             // use null value to remove title
-            title: 'Dialog Title',
+            title: 'ADA Modal',
 
             // dialog close button
             // Visibility is controlled by a boolean statement closeButton ? true : false
@@ -171,7 +171,7 @@ window.adamodal = function () {
 
             // Niel theme support
             // A modern themed styles inspired by Daniel Abugre [Dclaud] controlled by a boolean statement nielTheme ? true : false
-            nielTheme: true,
+            nielTheme: false,
 
             // dialog body
             //
